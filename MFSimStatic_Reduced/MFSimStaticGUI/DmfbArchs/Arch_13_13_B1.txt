@@ -1,0 +1,16 @@
+ARCHNAME (Arch_13_13_B1)
+DIM (13, 13)
+
+FIXED (DETECT, 8, 8, 10, 10)
+
+Input (north, 2, 2, tris-hcl)
+Input (north, 4, 2, kcl)
+Input (north, 6, 2, bovine)
+Input (north, 8, 2, gelatin)
+Input (west, 2, 2, primer)
+Input (west, 4, 2, beosynucleotide)
+Input (west, 6, 2, amplitag)
+Input (west, 8, 2, lambda)
+Output (south, 8, 0, output)
+FREQ (100)
+TIMESTEP (1)
